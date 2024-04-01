@@ -1,0 +1,13 @@
+.img-01 {
+    border-radius: 25px;
+    filter: grayscale(0);
+    transition: all  ;
+    cursor: pointer;
+}
+.img-02 {
+    border-radius: 25px;
+    margin-left: px;
+}
+h1 {
+    text-align: center;
+}
