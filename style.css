@@ -1,13 +1,58 @@
-.img-01 {
-    border-radius: 25px;
-    filter: grayscale(0);
-    transition: all  ;
-    cursor: pointer;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    font-family: "Indie Flower", cursive;
+    font-style: normal
+
 }
-.img-02 {
-    border-radius: 25px;
-    margin-left: px;
-}
-h1 {
+
+header{
+    background-color: rgb(102, 107, 107);
     text-align: center;
+    padding: 25px;
+    color: antiquewhite;
+}
+
+main{
+    margin:30px 200px ;
+}
+
+nav{
+    text-align: center;
+    margin:15px ;
+}
+
+nav a{
+     padding:10px;
+     text-decoration: none;
+}
+
+section{
+    padding: 50px;
+    border-bottom: 1px slategrey solid;
+}
+
+.container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(5, 5, 5, 0.1);
+}
+
+body {
+    background-image: url("paper.gif");
+  }
+  
+  .menu-fijo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: aquamarine;
+  }
+
+.menu-fijo.fijo {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
